@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%=htmlWebpackPlugin.options.title%></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../scss/index.css" />
+    <link rel="stylesheet" href="../../scss/print.css" media="print" />
+  </head>
+  <body>
+    <section>
+      <header class="header">
+        <h1 class="container-fluid bg">Розклад занять</h1>
+      </header>
+      <nav class="container-fluid bg">
+        <ul>
+          <li>
+            <a href="index.html" title="news" target="_self">
+              Головна сторінка</a
+            >
+          </li>
+          <li>
+            <a href="news.html" title="news" target="_self"> Новини</a>
+          </li>
+          <li>
+            <a href="photo.html" title="photo" target="_self"> Фото</a>
+          </li>
+          <li>
+            <a href="rozklad.html" title="rozklad" target="_self"> Розклад</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="rozklad-section bg container-fluid">
+        <div class="title">
+          <h2>Мій розклад</h2>
+        </div>
+        <div class="content-section bg container-fluid">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Час</th>
+                <th scope="col">Понеділок</th>
+                <th scope="col">Вівторок</th>
+                <th scope="col">Середа</th>
+                <th scope="col">Четверг</th>
+                <th scope="col">П'ятниця</th>
+                <th scope="col">Субота</th>
+                <th scope="col">Неділя</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">9:35</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td rowspan="7">Вихідний</td>
+                <td></td>
+                <td>
+                  Іноземна мова професійно-комунікативної спрямованості<br />Широкова
+                  І.І.
+                </td>
+                <td rowspan="7">Вихідний</td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="2">11:25</th>
+                <td rowspan="2"></td>
+                <td rowspan="2">Front-end-технології<br />Панасенко Є.В.</td>
+                <td>Основи DevOps<br />Гоменюк С.І.</td>
+                <td rowspan="2">
+                  Основи розробки Web-сайтів<br />Панасенко Є.В.
+                </td>
+                <td rowspan="2"></td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+              <tr>
+                <th scope="row">12:55</th>
+                <td></td>
+                <td>Front-end-технології<br />Лісняк А.О.</td>
+                <td>
+                  Основи автоматизованого проектування складних об'єктів і
+                  систем<br />Гребенюк С.М.
+                </td>
+                <td>Основи програмної інженерії<br />Лебідь М.В.</td>
+                <td>
+                  Іноземна мова професійно-комунікативної спрямованості<br />Широкова
+                  І.І.
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">14:30</th>
+                <td>
+                  Основи програмної інженерії
+                  <br />Лимаренко Ю.О.
+                </td>
+                <td></td>
+                <td>Основи DevOps<br />Гоменюк С.І.</td>
+                <td>
+                  Системи віртуалізації та контейнеризації<br />Мухін В.В.
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="2">16:05</th>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2">
+                  Основи автоматизованого проектування складних об'єктів і
+                  систем
+                  <br />Гребенюк С.М.
+                </td>
+                <td>
+                  Системи віртуалізації та контейнеризації<br />Мухін В.В.
+                </td>
+                <td rowspan="2"></td>
+              </tr>
+              <tr>
+                <td><br /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="container-fluid bg">
+        <h2 style="margin-bottom: 20px">Перелік викладачів</h2>
+        <ul>
+          <li>Лимаренко Юлія Олексіївна</li>
+          <li>Панасенко Євген Валерійович</li>
+          <li>Лісняк Андрій Олександрович</li>
+          <li>Гоменюк Сергій Іванович</li>
+          <li>Гребенюк Сергій Миколайович</li>
+          <li>Лебідь Максим Володимирович</li>
+          <li>Мухін Віталій Вікторович</li>
+          <li>Широкова Ірина Іванівна</li>
+        </ul>
+      </div>
+    </section>
+    <footer class="bg">
+      <hr width="100%" color="#555555" />
+      <p class="container-footer">
+        Copyright 2024. Всі права захищені.
+        <a href="index.html" title="index" target="_self"> Напишіть мені!</a>
+      </p>
+    </footer>
+  </body>
+</html>
